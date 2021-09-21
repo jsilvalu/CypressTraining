@@ -1,0 +1,15 @@
+{
+  "name": "cypresstraining",
+  "version": "1.0.0",
+  "description": "Training for cypress framework",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^8.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Antonio Silva Lujan",
+  "license": "ISC"
+}
