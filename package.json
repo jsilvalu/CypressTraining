@@ -1,15 +1,22 @@
 {
-  "name": "cypresstraining",
+  "name": "cypress_curso_2021",
   "version": "1.0.0",
-  "description": "Training for cypress framework",
+  "description": "Curso de Cypress 2021",
   "main": "index.js",
-  "dependencies": {
-    "cypress": "^8.4.1"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Juan Antonio Silva Lujan",
-  "license": "ISC"
+  "author": "rodrigo",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^1.6.0",
+    "cypress": "^6.9.1",
+    "cypress-cucumber-preprocessor": "^4.2.0",
+    "cypress-file-upload": "^5.0.3",
+    "cypress-plugin-tab": "^1.0.5",
+    "cypress-xpath": "^1.6.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
 }
